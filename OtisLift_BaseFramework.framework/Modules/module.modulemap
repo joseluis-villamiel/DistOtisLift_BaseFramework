@@ -1,0 +1,11 @@
+framework module OtisLift_BaseFramework {
+  umbrella header "OtisLift_BaseFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module OtisLift_BaseFramework.Swift {
+    header "OtisLift_BaseFramework-Swift.h"
+    requires objc
+}
